@@ -64,9 +64,13 @@ if __name__=='__main__':
 <h4>results:</h4>
 
 <code>
+
 	naive time: 8.25990605354
+
 </code>
 
 <code>
+
 	itertools time: 12.5649080276
+	
 </code>

@@ -15,7 +15,7 @@ But he really looked for the algorithm to create all the subsets.
 
 There are much less popular solutions on <a href="http://www.stackoverflow.com">stackoverflow</a> generate all the subsets by basically write the naive alogrithm in python.
 
-unfortuntally I couldn't find the awesome and elegant original post, but I rewrote it somehow and post it here.
+Unfortuntally I couldn't find the awesome and elegant original post, but I rewrote it somehow and post it here.
 
 <strong>The naive implementation:</strong>
 

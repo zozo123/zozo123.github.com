@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Generating a list subsets - Python"
+title: "Generating list's subsets - Python"
 description: ""
 category: ""
 tags: []

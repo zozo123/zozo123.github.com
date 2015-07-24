@@ -57,7 +57,7 @@ I thought it might be useful, if I list what it is recommended for start being a
 	practice within those tools:
 	<ul>
 		<li>
-	 		<a href="backtrack-linux.org">backtrack-linux.org</a>
+	 		<a href="http://backtrack-linux.org">backtrack-linux.org</a>
 	 	</li>
 	 	<li>	
 	 		<a href="http://www.net-force.nl/">http://www.net-force.nl/</a>

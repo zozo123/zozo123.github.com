@@ -11,9 +11,9 @@ Once a month a <strong>"how to generate all subsets in python"</strong> question
 
 The OP ("Original poster") of the question apparently found an itertools based implementation.
 
-But he really looked for the algorithm to create all the subsets.
+But what he really looked for is an algorithm to create all the subsets.
 
-There are much less popular solutions on <a href="http://www.stackoverflow.com">stackoverflow</a> generate all the subsets by basically write the naive alogrithm in python.
+There are fewer solutions on <a href="http://www.stackoverflow.com">stackoverflow</a> that implements the naive alogrithm in python.
 
 Unfortuntally I couldn't find the awesome and elegant original post, but I rewrote it somehow and post it here.
 
@@ -28,7 +28,7 @@ def naiveSubsetGen(s):
 {% endhighlight %}
 
 
-<strong>The one use intertools:</strong>
+<strong>The itertools solution:</strong>
 
 {% highlight python %}
 from itertools import combinations
@@ -61,7 +61,7 @@ if __name__=='__main__':
 
 {% endhighlight %}
 
-<h4>results:</h4>
+<h4>Results:</h4>
 
 {% highlight python %}
 naive time: 8.25990605354

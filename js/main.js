@@ -1,6 +1,9 @@
 /* ============ data: every live page, same content as the GitHub profile ============ */
 const FIGSETS = {
   1: [ // §01 AI Agents & Sandboxes
+    { slug: "t2t-vs-grch38", url: "https://zozo123.github.io/t2t-vs-grch38/",
+      image: "https://zozo123.github.io/t2t-vs-grch38/og.png",
+      title: "What T2T Changed", tldr: "GRCh38 → T2T-CHM13 delta, computed genome-wide by a Claude Code sandbox harness." },
     { slug: "sandboxes-why-how-when", url: "https://zozo123.github.io/sandboxes-why-how-when/",
       title: "The Sandbox Shift", tldr: "Why, when & how to sandbox AI-written code — with an interactive decider." },
     { slug: "sandbox-landscape", url: "https://zozo123.github.io/sandbox-landscape/",
@@ -52,9 +55,10 @@ const FIGSETS = {
 let figNo = 0;
 
 function thumbHTML(p) {
+  const src = p.image || `assets/thumbs/${p.slug}.jpg`;
   return `
     <span class="figure-thumb">
-      <img src="assets/thumbs/${p.slug}.jpg" alt="${p.title} — live page screenshot" loading="lazy"
+      <img src="${src}" alt="${p.title} — live page screenshot" loading="lazy"
            onerror="this.parentNode.classList.add('thumb-missing')">
     </span>`;
 }
